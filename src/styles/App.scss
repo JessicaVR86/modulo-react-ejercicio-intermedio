@@ -1,0 +1,13 @@
+@use "./core/reset";
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(18, auto);
+   justify-items: center;
+  align-content: center;
+}
+.cell {
+  padding: 0.7rem;  
+  border-bottom : solid green  2px;
+}
