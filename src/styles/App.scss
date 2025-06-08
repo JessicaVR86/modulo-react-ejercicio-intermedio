@@ -1,13 +1,45 @@
 @use "./core/reset";
+body {
+  background-color: #ecbdbf;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 35px;
+  color: #f15146;
+  padding: 1rem;
+}
+.form {
+  text-align: center;
+  color: #f15146;
+  padding: 1.5rem;
+}
 
 .container-grid {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(18, auto);
-   justify-items: center;
-  align-content: center;
+  justify-items: center;
 }
+
+td:hover {
+  color: hsl(101, 96%, 50%);
+  background-color: #f15146;
+}
+
 .cell {
-  padding: 0.7rem;  
-  border-bottom : solid green  2px;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  border-bottom: solid #eb817a 2px;
+  font-size: 20px;
+  color: #f15146;
+}
+.textinput{
+  border-radius: 5px;
+  border: solid  1px hsl(101, 96%, 50%);
+  
+}
+.index_title {
+  font-size: 20px;
 }
