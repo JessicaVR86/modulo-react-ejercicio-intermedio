@@ -9,5 +9,6 @@ export default defineConfig({
     watch: {
       usePolling: true
     }
-  }
+  },
+  base: "https://github.com/JessicaVR86.io/modulo-react-ejercicio-intermedio/"
 });
