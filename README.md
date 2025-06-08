@@ -1,1 +1,1 @@
-# React Starter Kit
+# modulo-react-ejercicio-intermedio
